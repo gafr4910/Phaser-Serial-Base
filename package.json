@@ -1,0 +1,27 @@
+{
+  "name": "phaser-serial-base",
+  "version": "1.0.0",
+  "description": "A Base code repo for connection a Phaser application to the serial port",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./src",
+    "install": "electron-rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATLAS-Alt-Arcade/Phaser-Serial-Base.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ATLAS-Alt-Arcade/Phaser-Serial-Base/issues"
+  },
+  "homepage": "https://github.com/ATLAS-Alt-Arcade/Phaser-Serial-Base#readme",
+  "dependencies": {
+    "electron": "^4.0.5",
+    "electron-rebuild": "^1.8.4",
+    "phaser": "^3.16.2",
+    "serialport": "^7.1.4"
+  }
+}
